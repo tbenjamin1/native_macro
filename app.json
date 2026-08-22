@@ -8,7 +8,8 @@
     "scheme": "macrozoneapp",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./assets/expo.icon"
+      "icon": "./assets/expo.icon",
+      "bundleIdentifier": "com.tben-dev.macrozoneapp"
     },
     "android": {
       "adaptiveIcon": {
@@ -17,7 +18,8 @@
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.tben_dev.macrozoneapp"
     },
     "web": {
       "output": "static",
@@ -37,6 +39,12 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "2c18cd96-78ce-4b93-9b60-ad894a82c7d3"
+      }
     }
   }
 }

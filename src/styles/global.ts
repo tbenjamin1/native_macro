@@ -17,6 +17,7 @@ export const globalStyles = StyleSheet.create({
     paddingTop: 60,
     paddingHorizontal: 20,
   },
+  
   title: {
     fontSize: 28,
     fontWeight: 'bold',
@@ -33,9 +34,9 @@ export const globalStyles = StyleSheet.create({
     color: colors.textSecondary,
     fontSize: 14,
   },
-  header: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-  },
+ header: {
+  flexDirection: 'row',
+  alignItems: 'center',
+  justifyContent: 'space-between',
+},
 });
